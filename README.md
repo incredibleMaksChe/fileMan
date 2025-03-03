@@ -40,3 +40,8 @@ manager analyse path/to/dir
 ```bash
 python -m unittest discover tests
 ```
+
+##  Запуск GUI
+```bash
+manager gui
+```

@@ -60,7 +60,10 @@ def main():
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
-
+def gui():
+    import flet as ft
+    from gui import main as gui_main
+    ft.app(target=gui_main)
 
 if __name__ == "__main__":
     main()
